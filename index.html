@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Safety Devil Hunters</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://kit.fontawesome.com/4f14733ee2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+    <script>
+        let mybutton = document.getElementById("myBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+    <header>
+        <div class="container">
+            <ul>
+                <h1>NDEPSC</h1>
+                <h2>National Devil Extermination Public Safety Commission</h2>
+            </ul>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#divisions">Divisions</a>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <img class="building" src="./images/building.png" alt="NDEPSC Building" />
+            <div>
+                <h3>About the NDEPSC</h3>
+                <p> <b>The Public Safety Devil Hunters</b> (公こう安あんのデビルハンター <i>Kōan no Debiru Hantā</i>), later known as <b>The National Devil Extermination Public Safety Commission</b>, are an organization of government-sanctioned Devil Hunters in Japan who function similarly to a Fire Department or Police Force. They're sent to dispatch Devils in the event of a threat to the public and are tasked with resolving Devil-related incidents on a smaller scale. Though the threat level of the Devils they pursue can vary, they're generally sent after bigger threats than those working in the Private Sector. The NDEPSC are split into several different divisions and have a basic dress code. They usually wear formal clothing, such as ties and suits, while Private Sector Devil Hunters do not have to follow a dress code, since they do not work for the government. It is worth noting that the uniforms provided to Public Safety Devil Hunters are reinforced, meaning that the suits provide decent protection to Devil Hunters.
+                    <br><br> To compensate the fact that Hunters from the public bureau are sent after more dangerous Devils than private Devil Hunters, the government gives them more paid days off and other benefits. Despite the benefits, Public Safety, like all departments that work under the goverment, must also do paperwork and always give well-explained and detailed reports about their activities. </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="divisions">
+        <div class="cont2">
+            <h4>Divisions</h4>
+            <p>
+                Both Tokyo's and Kyoto's Public Safety Devil Hunters are slip into several different divisions. As some hunters pass away during missions the divions may be merged into another. Special Division 4 for example was once Tokyo's largest division and formed by former members of Division 2, Special Division 1, Special Division 2 and Special Division 3.
+            </p>
+            <h4>Special Division 4</h4>
+            <main class="grid">
+                <img src="./images/makima.png" alt="Makima" />
+                <img src="./images/kishibe.png" alt="Kishibe" />
+                <img src="./images/aki.png" alt="Aki Hayakawa" />
+                <img src="./images/angel.png" alt="Angel Devil" />
+                <img src="./images/arai.png" alt="Hirokazu Arai" />
+                <img src="./images/beam.png" alt="Beam" />
+                <img src="./images/denji.png" alt="Denji" />
+                <img src="./images/fushi.png" alt="Fushi" />
+                <img src="./images/galgali.png" alt="Galgali" />
+                <img src="./images/himeno.png" alt="Himeno" />
+                <img src="./images/kobeni.png" alt="Kobeni Higashiyama" />
+                <img src="./images/madoka.png" alt="Madoka" />
+                <img src="./images/power.png" alt="Power" />
+                <img src="./images/princi.png" alt="Princi" />
+                <img src="./images/unnamed.png" alt="Unnamed Female" />
+              </main>
+    </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h3>Contact</h3>
+            <div class="contact-methods">
+                <div>
+                    <h5><i class="fa-solid fa-bell"></i> Report Devil incident:</h5>
+                    <form>
+                        <input type="text" placeholder="Name" required />
+                        <input type="email" placeholder="E-mail" required />
+                        <input type="tel" placeholder="Telephone (Optional)" />
+                        <input type="address" placeholder="Near address of the incident" required />
+                        <textarea placeholder="Describe the incident" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div>
+                    <h5><i class="fa-solid fa-location-dot"></i> Address</h5>
+                    <p>
+                        Public Safety Devil Hunters Headquarters
+                        <br>
+                        〒106-0044東京都港区東麻布1-8-1 東麻布ISビル4F
+                    </p>
+                    <img src="./images/map.png" alt="Public Safety Devil Hunters Headquarters" />
+                </div>
+                <div>
+                    <h6><i class="fa-solid fa-phone"></i> Tel</h6>
+                    <p>+81 (03) 1234-5678</p>
+                    <h6><i class="fa-solid fa-envelope"></i> E-mail</h6>
+                    <p>contact@ndepsc.jp</p>
+                    <h6><i class="fa-solid fa-briefcase"></i> Careers</h6>
+                 <a href="#">Apply here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="credits">
+            <p>© 1997 National Devil Extermination Public Safety Commission
+                <br>Fanmade inspired by Tatsuki Fujimoto
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
