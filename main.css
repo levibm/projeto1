@@ -241,6 +241,10 @@ h6 {
     margin-bottom: 10px;
 }
 
+a:link {
+    color: #1d1d1d;
+}
+
 .contact-methods img {
     max-width: 400px;
     border: 1px solid #a0a7b1;
